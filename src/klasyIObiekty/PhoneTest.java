@@ -1,6 +1,6 @@
-package KlasyiObiekty;
+package klasyIObiekty;
 
-public class cellPhoneMain {
+public class PhoneTest {
     public static void main(String[] args) {
         Phone phone1 = new Phone("Xiaomi","Redmi note 6 pro","mały","czarny"
         ,true,true,true);

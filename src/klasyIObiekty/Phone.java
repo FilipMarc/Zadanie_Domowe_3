@@ -1,4 +1,4 @@
-package KlasyiObiekty;
+package klasyIObiekty;
 
 public class Phone {
     String brand;
