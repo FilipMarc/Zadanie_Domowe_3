@@ -7,12 +7,12 @@ public class Math {
     }
 
     boolean isOdd(int value){
-        return  value %2 ==1;
+        return value %2 ==1;
     }
 
     double circleField(double value){
-        double pole = 3.14*value *value;
-        return pole;
+        double radius = 3.14*value *value;
+        return radius;
     }
 
     int power(int value){

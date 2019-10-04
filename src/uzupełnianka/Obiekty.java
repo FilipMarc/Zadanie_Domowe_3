@@ -2,7 +2,7 @@ package uzupełnianka;
 
 public class Obiekty {
     public static void main(String[] args) {
-        System.out.println("Klasa to zestaw cech i elementów danego obiektu");
+        System.out.println("Klasa jest foremką do tworzenia czegoś, obiekt jest gotowym produktem z tej foremki");
 
         System.out.println("Obiekt to egzemplarz rzecywisty stworzony z klasy, " +
                 "posiadający dane cechy");
@@ -12,8 +12,9 @@ public class Obiekty {
 
         System.out.println("Każda zmienna musi mieć określony typ, np. int albo String");
 
-        System.out.println("W klasie mogą się znajdować metody, konstruktory " +
-                " i obiekty które są wywoływane przez operator new i służą do tworzenia nowych obiektów.");
+        System.out.println("W klasie mogą znajdować się metody, obiekty i konstruktory");
+
+        System.out.println("Konstruktory są wywoływane przez operator new i służa do tworzenia nowych obiektów");
 
         System.out.println("Jeżeli w klasie zdefiniowano chociaż jeden konstruktor" +
                 "to kompilator nie wygeneruje dla nas konstruktora domyślnego.");
